@@ -56,3 +56,33 @@ li {
     font-size: 16px;
     top: -34px;
 }
+li:first-letter {
+    text-transform: capitalize;
+}
+.weather-temperature img {
+    margin-bottom: 24px;
+    margin-right: 5px;
+    height: 75px;
+    width: 75px;
+}
+
+.weather-temperature strong {
+    color: rgb(33, 33, 33);
+    font-size: 70px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.weather-temperature .active {
+    color: black;
+    cursor: default;
+    text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+    text-decoration: none;
+}
+
+#gitlink {
+    text-decoration: none;
+}
